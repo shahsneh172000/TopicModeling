@@ -1,0 +1,28 @@
+.blink {
+    animation: blink 1s infinite;
+    font-size: 20px;
+} 
+.h1 {
+    color: blue;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out; 
+  }
+  
+  .h1:hover {
+    color: rgb(35, 233, 217);
+  } 
+
+ @keyframes blink {
+    83.3% {
+      color: #0000FF;
+      text-shadow: 0px 0px 15px #0000FF;
+    }
+    100% {
+      color: #4B0082;
+      text-shadow: 0px 0px 15px #4B0082;
+    }
+  }
+  
+
+
+  

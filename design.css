@@ -1,0 +1,31 @@
+@keyframes rainbow-text {
+    0% {
+      color: red;
+      text-shadow: 0px 0px 15px red;
+    }
+    16.7% {
+      color: orange;
+      text-shadow: 0px 0px 15px orange;
+    }
+    33.3% {
+      color: yellow;
+      text-shadow: 0px 0px 15px yellow;
+    }
+    50% {
+      color: green;
+      text-shadow: 0px 0px 15px green;
+    }
+    66.7% {
+      color: blue;
+      text-shadow: 0px 0px 15px blue;
+    }
+    83.3% {
+      color: indigo;
+      text-shadow: 0px 0px 15px indigo;
+    }
+    100% {
+      color: violet;
+      text-shadow: 0px 0px 15px violet;
+    }
+  }
+  
